@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💖 Un correo para usted by José 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    Body {
+  Font-family: “Poppins”, sans-serif;
+  Background-color: #fff;
+  Display: flex;
+  Flex-direction: column;
+  Align-items: center;
+  Justify-content: flex-start;
+  Min-height: 100vh;
+  Padding: 20px;
+  Margin: 0;
+  Text-align: center;
+  Color: #333;
+  Overflow-y: auto;
+}
+
+    h2 {
+      margin-bottom: 20px;
+    }
+    .screen {
+      display: none;
+      animation: fadeIn 0.8s ease;
+      width: 90%;
+      max-width: 600px;
+    }
+    .active {
+      display: block;
+    }
+    .main-img {
+      width: 280px;
+      height: auto;
+      margin-bottom: 15px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      border: none;
+      box-shadow: none;
+    }
+    .main-img:hover {
+      transform: scale(1.05);
+    }
+    .card {
+      background: repeating-linear-gradient(
+        white,
+        white 28px,
+        #e3e3e3 29px
+      );
+      border-radius: 0; /* esquinas en punta */
+      padding: 40px 60px;
+      border: 2px solid #e5e5e5;
+      width: 95%;
+      max-width: 900px;
+      text-align: left;
+      margin: 0 auto;
+      box-sizing: border-box;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease;
+    }
+    .card h3 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2em;
+      text-align: left;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      color: #444;
+    }
+    .card p {
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.3em;
+      line-height: 1.6;
+      text-align: justify;
+      color: #444;
+      margin: 10px 0;
+    }
+    .return-btn {
+      margin-top: 25px;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+      background-color: #ff4f81;
+      color: white;
+    }
+    .return-btn:hover {
+      background-color: #ff2a66;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: scale(0.95);}
+      to {opacity: 1; transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+  <div class="screen active" id="screen1">
+    <h2>Hola Mi Amolchito de Mi Vida, le llegó un correo</h2>
+    <img src="https://i.pinimg.com/736x/ff/f5/09/fff50907173be3563c30d60e1baa6cbc.jpg" alt="Correo" class="main-img" onclick="nextScreen(2)">
+  </div>
+  <div class="screen" id="screen2">
+    <h2>Una cartita para usted</h2>
+    <img src="https://i.pinimg.com/736x/08/8a/d8/088ad89bd98763783954b4aa5b957f89.jpg" alt="Carta" class="main-img" onclick="nextScreen(3)">
+  </div>
+  <div class="screen" id="screen3">
+    <h2>¡Ábralo Mi Amolchito de Mi Vida!</h2>
+    <img src="https://i.pinimg.com/736x/0b/97/89/0b978918f0efa0174a6e72d67f2c442a.jpg" alt="Sobre" class="main-img" onclick="nextScreen(4)">
+  </div>
+  <div class="screen" id="screen4">
+    <h2>¿Qué dirá?</h2>
+    <img src="https://i.pinimg.com/736x/40/0d/cf/400dcf7b1230e9e6ca787fa30a66c924.jpg" alt="Carta lista" class="main-img" onclick="nextScreen(5)">
+  </div>
+  <div class="screen" id="screen5">
+    <div class="card">
+  <h3>Para el amor de mi vida💗</h3>
+
+  <p>
+    Empiezo diciendoleee algo sorprendente, algo gigante, algo que me deja sin palabras y me encanta muchisimooo. Me encantan sus cocotes 🫦 JAJAJAJAJA bromita mi Amolchitooo 👻. WAZAAAAAA. JAJAJAJA ESO QUE, BIEN RATA JAJAJAJJA.
+    Wao hoy ya son <strong>7 mesesotes</strong> mi Colachonshitooooooooo de mi vida.
+    Aunque hoy no sea 29 de febrero, seguimos cumpliendo otro mes juntos,
+    nomás hay 29 cada 4 años 😭cada 4 años celebramosh JAJAJAJAJ ño se crea, cualquier día es perfecto para celebrar lo feliz que me siento a su lado 😭💗
+  </p>
+
+  <p>
+    Es increíble todo este tiempo que hemos pasado juntos. De un momento llegó a mi vida y se volvio mi todo
+    y hoy estamos aquí llevamoshh 7 meses juntos suficiente tiempo para imaginar y soñar
+    una vida entera a su lado. Han sido meses llenos de momentos lindos y aunque también
+    existieron momentos dificiles, lo importante es que hemos intentado mejorar.
+    Pero esta vez quiero que sea diferente ya no quiero prometer cambios
+    quiero que usted los vea en mis acciones.
+  </p>
+
+  <p>
+    Todo el tiempo que he pasado con usted me ha hecho darme cuenta de la increíble y especial 
+    persona que es y lo importante que se a vuelto para mi, Cada día estoy más seguro de que quiero seguir a su lado.
+  </p>
+
+  <p>
+    Cada día junto a usted es único, especial, increíble, super lindoteee. En usted no solo vi a una niña linda, preciosotaaa, perfectaaa cada vez que la veo digo "waooo es tan perfecta" por eshoo veo sus fotitos siempreeee. quelicooooteeee
+    sino a una persona especial, única, increíble, inteligente, divertida, la mejor del mundo, en quien encontré paz, con quien desde el primer día eh estado seguro que quiero estar por siempre 😭💗
+    encontré amor, tranquilidad y seguridad. Con usted todo tiene sentido,todo tiene color, todo es único 
+    mi Amolchitooo. Usted se volvió mi lugar seguro, el motivo de mis días felices, el motivo de querer ser mejor cada día.
+    y la persona con la que quiero compartir cada momento de mi vida.
+  </p>
+
+  <p>
+    Pienso mucho en la teoría del hilo rojo que le hice hace unos días.
+    Yo siento que ese hilo nos unió incluso a la distancia y que nunca se romperá.
+    Nuestros caminos se encontraron en el momento correcto,
+    como si todo hubiera pasado exactamente como debía para que hoy estemos juntos que lindo es el destino.
+  </p>
+
+  <p>
+    Por eso estoy seguro de que quiero compartir mi vida con usted.
+    No quiero algo pasajeroooo, quiero algo para siempreeeee.
+    Qué lindo sería mirarnos dentro de muchos años y seguir juntitos,
+    recordando cómo empezó todo. Y sé que eso lo iremos construyendo
+    con paciencia, poco a poco, creando muchos más momentos felices.
+  </p>
+
+  <p>
+    Porque después de estos 7 meses sigo seguro de algo
+    quiero seguir eligiéndola todos los días y de lo mucho que La Amooo cada día Muchoteee Mashhhh 😭💗
+  </p>
+
+  <p>
+    Gracias por todo este tiempo, llego a mi vida a cambiarla por completo con usted soy muy feliz Mi Amolchitooo como ño tiene ideaa. Gracias por su cariño, por su paciencia
+    y por quedarse incluso cuando cometí errores. 
+    He aprendido mucho y realmente he querido cambiar.
+    Gracias por dejarme ser parte de su vida,
+    y espero que me permita seguir siéndolo por muchísimo tiempo más,
+    mi Colachonshitooooooooo por toda la vidotaaa.
+  </p>
+
+  <p>
+    Aunque hoy no sea 29 de febrero cualquier día es perfecto para celebrar
+    lo feliz que soy a su lado, porque cada día junto a usted se siente muy especial.
+    Cada día con usted es el mejor regalo que Papito Dios me pudo dar en la vida. La Amoooo Muchisimoo Mi Colachomshitoo de Mi Vidaaa, como ño tiene idea Mi Pastelitooooo de Mielll 😭💗
+  </p>
+
+  <p><strong>Con todo mi amorshoootee,<br>
+  su niño tiquito que cada dia la ama mochoteee masshh 💗</strong></p>
+</div>
+
+    <div style="text-align: center;">
+      <button class="return-btn" onclick="nextScreen(1)">🔙 Regresar</button>
+    </div>
+  </div>
+  <script>
+    function nextScreen(num) {
+      const current = document.querySelector(".screen.active");
+      if (current) current.classList.remove("active");
+      document.getElementById("screen" + num).classList.add("active");
+    }
+  </script>
+</body>
+</html>
